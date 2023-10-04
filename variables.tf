@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "The AWS region to create things in."
-  default     = "us-east-1"
+  default     = "us-east-1"   #change 
 }
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
@@ -12,10 +12,10 @@ variable "instance_type" {
 }
 variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
-  default     = "ami-08bf0e5db5b302e19"
+  default     = "ami-08bf0e5db5b302e19"       #change
 }
 variable "bucketname" {
   description = "The name of the S3 bucket to create"
   type        = string
-  default     = "ajaykumar-yegireddi-clouds"
+  default     = "ajaykumar-yegireddi-clouds"   #change
 }
